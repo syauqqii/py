@@ -1,9 +1,12 @@
-## GPT4FREE
+# GPT4FREE
+
+## INSTALLASI PROGRAM + CARA RUN
+Download libarary :
 ```
 ~$ pip install gpt4free
 ```
 
-# RUN PROGRAM
+Run Program :
 ```
 ~$ python main.py
 ```
