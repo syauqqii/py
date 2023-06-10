@@ -3,7 +3,6 @@ from gpt4free.you import Completion
 
 def main():
     system('cls' if name == 'nt' else 'clear')
-
     print("\n      +---+---+---+---+---+---+")
     print("      | A | I | _ | C | L | I |")
     print("      +---+---+--+-[./0xd1m5]-+")
