@@ -72,7 +72,7 @@ def main(JWT_TOKEN):
 
 	response = get(FORMAT_URL_2.format(BASE_URL, sessionId), headers=HEADERS)
 
-	print(f"\n   Link Zoom  : {loads(response.text)["joinUrl"]}")
+	print(f'\n   Link Zoom  : {loads(response.text)["joinUrl"]}')
 
 if __name__ == '__main__':
 	try:
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 		args = parser.parse_args()
 
 		if args.token is None:
-			print("\n > Jalankan: python main.py --token JWT_TOKEN")
+			print("\n > Jalankan: python main.py --token JWT_TOKEN\n")
 			exit(1)
 		else:
 			main(args.token)
