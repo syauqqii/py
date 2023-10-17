@@ -84,6 +84,6 @@ if __name__ == '__main__':
 			print("\n > Jalankan: python main.py --token JWT_TOKEN")
 			exit(1)
 		else:
-			main()
+			main(args.token)
 	except KeyboardInterrupt:
 		exit(1)
